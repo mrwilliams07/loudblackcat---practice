@@ -1,0 +1,25 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  
+  double ph = 4.6;
+  
+  // Write the if, else if, else here:
+  
+  if (ph > 7) {
+    
+    cout << "Basic\n";
+
+  }
+  else if (ph < 7) {
+    
+    cout << "Acidic\n";
+
+  }
+  else {
+    
+    cout << "Neutral\n";
+  
+  }  
