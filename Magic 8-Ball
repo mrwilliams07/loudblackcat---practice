@@ -1,0 +1,56 @@
+#include <iostream>
+#include <cstdlib>
+
+using namespace std;
+
+int main() {
+
+// Our constant output
+cout << "MAGIC 8-BALL: \n";
+
+
+// Gives a different random number for each execution.
+// This sets the “seed” of the random number generator.
+srand(time(NULL));    
+
+// Variable for RNG answers that will provide a number from 0-9.
+// The % is the modulo symbol that returns the remainder.
+int answer = rand() % 10; 
+
+if (answer == 0) {
+  
+  cout << "It is certain.\n";
+}
+else if (answer == 1) {
+
+  cout << "My reply is no.\n";
+}
+else if (answer == 2) {
+  cout << "Signs point to yes.\n";
+}
+else if (answer == 3) {
+  cout << "Don't count on it.\n";
+}
+else if (answer == 4) {
+  cout << "Yes.\n";
+}
+else if (answer == 5) {
+  cout << "No.\n";
+}
+else if (answer == 6) {
+  cout << "Ask again later.\n";
+}
+else if (answer == 7) {
+  cout << "Concentrate and ask again.\n";
+}
+else if (answer == 8) {
+  cout << "Cannot predict now.\n";
+}
+else { 
+  cout << "Very doubtful.\n";
+}
+
+
+// The logic should be 1 if, 8 else ifs, and 1 else.
+
+}
