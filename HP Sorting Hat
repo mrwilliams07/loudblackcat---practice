@@ -16,36 +16,42 @@ int answer3;
 int answer4;
 
 // Begin quiz with the following statement
+cout << "_____________________\n";
 cout << "The Sorting Hat Quiz!\n";
+cout << "_____________________\n\n";
 
 // Question 1
-cout << "Q1) When I'm dead, I want people to remember me as:\n";
+cout << "Q1) When I'm dead, I want people to remember me as:\n\n";
   cout << "1) The Good\n";
   cout << "2) The Great\n";
   cout << "3) The Wise\n";
-  cout << "4) The Bold\n";
+  cout << "4) The Bold\n\n";
+  cout << "Enter your answer (1-4): ";
     cin >> answer1;
 
 // Question 2
-cout << "Q2) Dawn or Dusk?\n";
+cout << "\nQ2) Dawn or Dusk?\n\n";
   cout << "1) Dawn\n";
-  cout << "2) Dusk\n";
+  cout << "2) Dusk\n\n";
+  cout << "Enter your answer (1-2): ";
     cin >> answer2;
 
 // Question 3
-cout << "Q3) Which kind of instrument most pleases your ear?\n";
+cout << "\nQ3) Which kind of instrument most pleases your ear?\n\n";
   cout << "1) The violin\n";
   cout << "2) The trumpet\n";
-  cout << "4) The piano\n";
-  cout << "5) The drum\n";
+  cout << "3) The piano\n";
+  cout << "4) The drum\n\n";
+  cout << "Enter your answer (1-4): ";
     cin >> answer3;
 
 // Question 4
-cout << "Q4) Which road tempts you most?\n";
+cout << "\nQ4) Which road tempts you most?\n\n";
   cout << "1) The wide, sunny grassy lane\n";
   cout << "2) The narrow, dark, lantern-lit alley\n";
   cout << "3) The twisting, leaf-strewn path through woods\n";
-  cout << "4) The cobbled street lined (ancient buildings)\n";
+  cout << "4) The cobbled street lined (ancient buildings)\n\n";
+  cout << "Enter your answer (1-4): ";
     cin >> answer4;
 
 // Conditional statements according to each answer
@@ -111,6 +117,7 @@ else {
 }
 
 // Adding the points to see which house has the most
+cout << "\nCongrats on being sorted into... ";
 
 string house; 
 int max = 0;
